@@ -3,10 +3,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Natively Community Support
+        # 🚀 Natively Community Support
 
-        #### Before proceeding, ensure you've consulted all relevant resources.
-        #### Make sure to provide all requested details for quicker assistance.
+        #### ❤️ Before proceeding, ensure to provide all requested details for quicker assistance.
+
 
   - type: checkboxes
     id: "confirmations"
@@ -74,8 +74,8 @@ body:
   - type: input
     id: "app-id"
     attributes:
-      label: "App ID (You can find ID in browser address bar at app dashboard. https://app.buildnatively.com/app-dashboard/YOUR_APP_ID)"
-      description: "Format: 1663075274412x796992140606844800"
+      label: "App ID"
+      description: "You can find ID in browser address bar at app dashboard. https://app.buildnatively.com/app-dashboard/YOUR_APP_ID. e.g: 1663075274412x796992140606844800"
     validations:
       required: false
 
