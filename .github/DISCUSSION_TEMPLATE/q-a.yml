@@ -13,13 +13,13 @@ body:
     attributes:
       label: "Please confirm you've checked the following resources:"
       options:
-        - label: "I've searched through the [Docs](https://docs.buildnatively.com)."
+        - label: I've searched through the [Docs](https://docs.buildnatively.com).
           required: true
-        - label: "I've checked [YouTube Videos 1](https://youtube.com/playlist?list=PLYo9EJqlVMNdtzb_rm6_6kjlDCmaoAqlO&si=sOygZtRDGUn_2Yi8) and [YouTube Videos 2](https://youtube.com/playlist?list=PLYo9EJqlVMNcwz2o1Xx5xVYYzzKgcyMeB&si=f4GuCPvUAdjvHplD)."
+        - label: I've checked [Natively Youtube Playlist #1](https://youtube.com/playlist?list=PLYo9EJqlVMNdtzb_rm6_6kjlDCmaoAqlO&si=sOygZtRDGUn_2Yi8) and [Natively Youtube Playlist #2](https://youtube.com/playlist?list=PLYo9EJqlVMNcwz2o1Xx5xVYYzzKgcyMeB&si=f4GuCPvUAdjvHplD).
           required: true
-        - label: "I've reviewed the [Troubleshooting Guides](https://docs.buildnatively.com/guides/troubleshooting)."
+        - label: I've reviewed the [Troubleshooting Guides](https://docs.buildnatively.com/guides/troubleshooting).
           required: true
-        - label: "I've visited the [FAQ](https://docs.buildnatively.com/natively-platform/faq)."
+        - label: I've visited the [FAQ](https://docs.buildnatively.com/natively-platform/faq).
           required: true
 
   - type: dropdown
