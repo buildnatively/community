@@ -5,8 +5,8 @@ body:
       value: |
         # Natively Community Support
 
-        ### Before proceeding, ensure you've consulted all relevant resources.
-        ### Make sure to provide all requested details for quicker assistance.
+        #### Before proceeding, ensure you've consulted all relevant resources.
+        #### Make sure to provide all requested details for quicker assistance.
 
   - type: checkboxes
     id: "confirmations"
