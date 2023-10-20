@@ -1,0 +1,118 @@
+labels: ["Q&A"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Buildnatively Community Support
+
+        Before proceeding, ensure you've consulted all relevant resources.
+
+        💡 Make sure to provide all requested details for quicker assistance.
+
+  - type: checkboxes
+    id: "confirmations"
+    attributes:
+      label: Please confirm you've checked the following resources:
+      options:
+        - label: I've searched through the [Docs](https://docs.buildnatively.com).
+          required: true
+        - label: I've checked [YouTube Videos 1](https://youtube.com/playlist?list=PLYo9EJqlVMNdtzb_rm6_6kjlDCmaoAqlO&si=sOygZtRDGUn_2Yi8) and [YouTube Videos 2](https://youtube.com/playlist?list=PLYo9EJqlVMNcwz2o1Xx5xVYYzzKgcyMeB&si=f4GuCPvUAdjvHplD).
+          required: true
+        - label: I've reviewed the [Troubleshooting Guides](https://docs.buildnatively.com/guides/troubleshooting).
+          required: true
+        - label: I've visited the [FAQ](https://docs.buildnatively.com/natively-platform/faq).
+          required: true
+
+  - type: dropdown
+    id: "web-app-platform"
+    attributes:
+      label: "Which web app platform are you using?"
+      description: "Select your web app platform."
+      multiple: false
+      options:
+        - "-"
+        - "Bubble"
+        - "Shopify"
+        - "React"
+        - "Woocommerce"
+        - "Wordpress"
+        - "Wix"
+        - "Webflow"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: "sdk-choice"
+    attributes:
+      label: "Which SDK are you using?"
+      multiple: false
+      options:
+        - "JS SDK"
+        - "Bubble Plugin"
+    validations:
+      required: true
+
+  - type: input
+    id: "sdk-version"
+    attributes:
+      label: SDK/Plugin Version (e.g., 2.12.1)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: "issue-platform"
+    attributes:
+      label: "Platform with the issue?"
+      multiple: false
+      options:
+        - "iOS"
+        - "Android"
+        - "Both"
+    validations:
+      required: true
+
+  - type: input
+    id: "app-id"
+    attributes:
+      label: "App ID (You can find this in your app dashboard address bar)"
+      description: "Format: 123x123"
+    validations:
+      required: true
+
+  - type: input
+    id: "associated-email"
+    attributes:
+      label: "Your Natively associated email"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Detail the steps to reproduce the issue.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: URL to video (optional)
+      description: "If possible, provide a video showcasing the issue. Consider using fex.net for file uploads."
+  
+  - type: textarea
+    attributes:
+      label: Expected results
+      description: Describe the expected behavior or outcome.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Actual results
+      description: Describe the actual behavior or outcome.
+    validations:
+      required: true
