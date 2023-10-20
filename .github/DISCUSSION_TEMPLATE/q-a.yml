@@ -3,10 +3,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Buildnatively Community Support
+        # Natively Community Support
 
-        ## Before proceeding, ensure you've consulted all relevant resources.
-        ## 💡 Make sure to provide all requested details for quicker assistance.
+        ### Before proceeding, ensure you've consulted all relevant resources.
+        ### Make sure to provide all requested details for quicker assistance.
 
   - type: checkboxes
     id: "confirmations"
@@ -47,7 +47,7 @@ body:
       label: "Which SDK are you using?"
       multiple: false
       options:
-        - "JS SDK"
+        - "JavaScript SDK"
         - "Bubble Plugin"
     validations:
       required: true
@@ -55,7 +55,7 @@ body:
   - type: input
     id: "sdk-version"
     attributes:
-      label: "SDK/Plugin Version (e.g., 2.12.1)"
+      label: "JS SDK / Bubble Plugin Version (e.g., 2.12.1)"
     validations:
       required: true
 
@@ -74,17 +74,10 @@ body:
   - type: input
     id: "app-id"
     attributes:
-      label: "App ID (You can find this in your app dashboard address bar)"
-      description: "Format: 123x123"
+      label: "App ID (You can find ID in browser address bar at app dashboard. https://app.buildnatively.com/app-dashboard/YOUR_APP_ID)"
+      description: "Format: 1663075274412x796992140606844800"
     validations:
-      required: true
-
-  - type: input
-    id: "associated-email"
-    attributes:
-      label: "Your Natively associated email"
-    validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
