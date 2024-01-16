@@ -1,4 +1,4 @@
-labels: ["Q&A"]
+labels: ["Bugs"]
 body:
   - type: markdown
     attributes:
